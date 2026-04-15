@@ -1,6 +1,19 @@
-```gitignore
+```
 # Dependencies
 node_modules/
+
+# Editors
+.vscode/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Build artifacts
 dist/
@@ -19,33 +32,14 @@ venv/
 .ENV
 .python-version
 
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Environment variables
-.env
-.env.local
-.env.*
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Testing
-.coverage
-coverage/
-htmlcov/
-
-# Distribution / packaging
-*.tar.gz
-*.whl
-*.egg-info/
+# Compiled
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Compression
 *.zip
@@ -66,8 +60,22 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Gradle
+.gradle/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# System
+.DS_Store
+Thumbs.db
 ```
